@@ -1,10 +1,12 @@
-html, body { /* to remove scrolling */
+html, body {
+  /* to remove scrolling */
   margin: 0;
   height: 100%;
   overflow: hidden
 }
 
-body { /* controls the backgroud picture animation */
+body {
+  /* controls the backgroud picture animation */
   /*background-color: #37474f;*/
   animation: colorchange 20s infinite;
   /* animation-name followed by duration in seconds*/
@@ -15,15 +17,11 @@ body { /* controls the backgroud picture animation */
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   animation-iteration-count: infinite;
-
-
   display: flex;
   align-items: center;
   justify-content: center;
   //background: linear-gradient(-45deg,#00b1b3,#1d5086);
   background: #fff;
-
-
 }
 
 @keyframes colorchange {
@@ -32,7 +30,7 @@ body { /* controls the backgroud picture animation */
   }
 
   25% {
-    background:  #FF6D00;
+    background: #FF6D00;
   }
 
   50% {
@@ -40,7 +38,7 @@ body { /* controls the backgroud picture animation */
   }
 
   75% {
-    background:#00796B;
+    background: #00796B;
   }
 
   100% {
@@ -51,7 +49,7 @@ body { /* controls the backgroud picture animation */
 /* TODO: the colors are not equal */
 @keyframes colorchange {
   0% {
-    background:#81C784;
+    background: #81C784;
   }
 
   25% {
@@ -67,11 +65,11 @@ body { /* controls the backgroud picture animation */
   }
 
   100% {
-    background:#81C784;
+    background: #81C784;
   }
 }
 
-h1{
+h1 {
   font-family: 'Comfortaa';
   font-style: normal;
   font-variant: normal;
@@ -82,7 +80,6 @@ h1{
   /*text-shadow: 1px 0px white;*/
   text-align: center;
   text-indent: 100px;
-
   position: fixed;
   left: 390px;
   top: 310px;
@@ -111,16 +108,15 @@ h1{
   margin-top: 40em;
 }
 
-
 /* ****************************************************************************/
-
 /* Button */
 .wrap {
   text-align: center;
+  position: relative;
 }
 
 .button {
-  position: absolute;
+  position: fixed;
   font-weight: 900;
   top: 56%;
   right: 46.5%;
@@ -132,10 +128,9 @@ h1{
   width: 120px;
   box-shadow: 0px 0px 8px #C8E6C9;
   border: dashed;
-
   border color: #4CAF50;
   color: white;
-  background-color:#4CAF50 ;
+  background-color: #4CAF50;
   opacity: .8;
   transition: all .4s cubic-bezier(0.42, 0, 0.58, 1);
   5s;
@@ -152,6 +147,7 @@ h1{
   background-color: transparent;
   box-shadow: 0px 0px 8px white;
   border: none;
+  position: fixed;
 }
 
 button:hover:before {
@@ -175,9 +171,7 @@ button:before {
   0s;
 }
 
-
 /* ************************************************************************* */
-
 .border {
   position: fixed;
   top: 0;
@@ -188,4 +182,10 @@ button:before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.fa-reorder{
+
+  margin-right: 90em;
+  margin-bottom: 42em;
 }
