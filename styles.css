@@ -28,7 +28,7 @@ body { /* controls the backgroud picture animation */
 
 @keyframes colorchange {
   0% {
-    background: #009688;
+    background: #81C784;
   }
 
   25% {
@@ -36,22 +36,22 @@ body { /* controls the backgroud picture animation */
   }
 
   50% {
-    background: #8BC34A;
+    background: #4FC3F7;
   }
 
   75% {
-    background:#673AB7;
+    background:#00796B;
   }
 
   100% {
-    background: #009688;
+    background: #81C784;
   }
 }
 
 /* TODO: the colors are not equal */
 @keyframes colorchange {
   0% {
-    background:#009688;
+    background:#81C784;
   }
 
   25% {
@@ -59,15 +59,15 @@ body { /* controls the backgroud picture animation */
   }
 
   50% {
-    background: #8BC34A;
+    background: #4FC3F7; <!--#8BC34A;-->
   }
 
   75% {
-    background: #673AB7;
+    background: #00796B;
   }
 
   100% {
-    background:#009688;
+    background:#81C784;
   }
 }
 
