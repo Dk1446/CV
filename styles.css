@@ -131,11 +131,11 @@ h1{
   height: 40px;
   width: 120px;
   box-shadow: 0px 0px 8px #C8E6C9;
-  border: solid;
+  border: dashed;
 
-  border color: white;
+  border color: #4CAF50;
   color: white;
-  background-color:#009688 ;
+  background-color:#4CAF50 ;
   opacity: .8;
   transition: all .4s cubic-bezier(0.42, 0, 0.58, 1);
   5s;
